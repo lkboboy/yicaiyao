@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact name="yicaiyao:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/yicaiyao_jar</output-path>
+    <root id="root">
+      <element id="archive" name="yicaiyao.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="yicaiyao" />
+      </element>
+      <element id="library" level="project" name="Maven: junit:junit:4.13" />
+      <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.9" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.16" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.16" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+      <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.16" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.16" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.16" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.6.4" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.16" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.4" />
+    </root>
+  </artifact>
+</component>

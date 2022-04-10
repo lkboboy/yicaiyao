@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: org.example.App
+Class-Path: junit-4.13.jar okhttp-3.14.9.jar spring-jcl-5.3.16.jar sprin
+ g-beans-5.3.16.jar hamcrest-core-1.3.jar okio-1.17.2.jar spring-aop-5.3
+ .16.jar spring-core-5.3.16.jar spring-expression-5.3.16.jar spring-boot
+ -2.6.4.jar spring-context-5.3.16.jar spring-boot-autoconfigure-2.6.4.ja
+ r
+
