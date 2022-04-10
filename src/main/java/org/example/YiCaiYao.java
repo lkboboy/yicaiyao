@@ -22,12 +22,8 @@ public class YiCaiYao {
         OkHttpClient client = new OkHttpClient().newBuilder().build();
 
         Map<String, String> mapList = new HashMap<String, String>();
-        mapList.put("卢坤", "oUfcc5N8YZAOuV1P8UD2-YtnxoIs");
-        mapList.put("王德勇", "oUfcc5PsZmUHdfHZNtDJ5AWtGr8I");
-        mapList.put("张婷", "oUfcc5BKGS7_4bY-wdLqbQjwGpOc");
-        mapList.put("艾永俊", "oUfcc5HGz4IqtHsCiSDqgUFo0e8k");
-        mapList.put("蒋红辉", "oUfcc5Ip4oXdNFfAuv3VyS-sdcg4");
-        mapList.put("赵善荣", "oUfcc5PqGCGkWav9ESr_ByZ8Cjvw");
+        mapList.put("XX", "oUfccXN8YZAOuXXP8UD2-XtnxoIs");
+
 
         //使用for循环，直接提前报送30天，默认0为当天
         for (int i = 0; i < 1; i++) {
@@ -48,11 +44,11 @@ public class YiCaiYao {
                 MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
                 RequestBody body = RequestBody.create(mediaType, "fillinTime=" + f.format(tomorrow) +
                         "&name=" + entry.getKey() +
-                        "&companyName=建工集团" +
+                        "&companyName=XX集团" +
                         "&isConfirmed=0" +
                         "&isQuarntine=0" +
                         "&currentBodyState=0" +
-                        "&enterprise=红河广源马堵山水电开发有限公司" +
+                        "&enterprise=XXXXXX有限公司" +
                         "&livingAreaIsConfirmed=0" +
                         "&bodyStateRemark=" +
                         "&returnWork=1" +
